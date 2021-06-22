@@ -1,0 +1,94 @@
+.box{
+    background-color: rgb(241, 215, 215);
+    width: 80%;
+    border: 1px solid darkred;
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    border-radius: 20px;
+    min-height: 570px;
+    /* display: grid;
+    grid-template-columns: 100px;  */
+    display: flex;
+    flex-direction: column;
+    
+
+    
+  }
+  html,body{
+      height:100%;
+  }
+  .white{
+   
+    display:flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    overflow-y:auto;
+    
+  }
+   .title{
+    background-color: rgb(241, 215, 215);
+    width: 95;
+    border: 1px solid darkred;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3); */
+    border-radius: 20px;
+    min-height: 30px;
+    
+    font-size:x-large;
+    font-weight: bold;
+    
+  }
+   .bodytext{
+    background-color: rgb(241, 215, 215);
+    width: 98;
+    border: 1px solid darkred;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+   margin-top: 5px;
+    /* box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3); */
+    
+    min-height: 300px;
+    
+    font-size:large;
+    
+   }  
+   .contact{
+    background-color: rgb(241, 215, 215);
+    width: 95;
+    border: 1px solid darkred;
+    padding: 5px;
+    border-radius: 20px;
+   margin-top: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+    
+    min-height: 100px;
+    
+    font-size:large;
+   }
+   .name{
+    background-color: darkred;
+    width: 60%;
+    border: 3px solid rgb(241, 215, 215);
+    padding: 5px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+   margin-right: 20px;
+    color: darkgray;
+    margin-bottom: 10px;
+    min-height: 50px;
+    font-weight:bold ;
+    font-size:xx-large;
+
+   }
+
+   
+
+   
